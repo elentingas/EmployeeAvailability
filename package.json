@@ -1,0 +1,21 @@
+{
+  "name": "employeeavailability",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "serve": "serve ./coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.6.1",
+    "serve": "^11.3.2"
+  },
+  "jest": {
+    "coverageReporters": [
+      "html"
+    ]
+  }
+}
